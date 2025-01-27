@@ -11,7 +11,6 @@ export async function post(body: RequestBody) {
     try {
       const response = await axios.post(
         API_URL,
-
         body,
         {
           headers: {
