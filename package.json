@@ -2,7 +2,7 @@
   "name": "ai-error-explainer",
   "version": "1.0.0",
   "description": "A console error explainer for developers",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "author": "Vinicius Mineiro",
   "license": "MIT",
   "repository": {
@@ -19,16 +19,13 @@
   },
   "private": false,
   "devDependencies": {
-    "@types/fs-extra": "^11.0.4",
     "@types/node": "^22.10.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "prettier": "^3.4.2"
   },
   "dependencies": {
-    "@types/crypto-js": "^4.2.2",
-    "@types/prompt": "^1.1.9",
-    "chalk": "4.1.2",
-    "prettier": "^3.4.2",
-    "axios": "^1.7.9"
+    "axios": "^1.7.9",
+    "chalk": "4.1.2"
   }
 }
