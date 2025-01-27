@@ -10,7 +10,6 @@
     "url": "https://github.com/Petri-Hub/Wenvi"
   },
   "scripts": {
-    "dev": "nodemon",
     "build": "tsc",
     "format": "prettier --write src/**/*.ts",
     "prepublishOnly": "yarn run build"
