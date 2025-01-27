@@ -15,7 +15,7 @@
     "prepublishOnly": "yarn run build"
   },
   "bin": {
-    "wenvi": "./dist/index.js"
+    "ai-error-explainer": "./dist/index.js"
   },
   "private": false,
   "devDependencies": {
